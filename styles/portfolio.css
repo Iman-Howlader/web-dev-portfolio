@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+   
     font-family: "Work Sans";
 }
 
@@ -10,8 +9,16 @@
     color: rgb(253, 110, 10);
 }
 
+.dark-1 {
+    color: rgb(24, 24, 24);
+}
+
 .dark-2 {
     color: rgb(71, 71, 71)
+}
+
+.dark-3 {
+    color: rgb(117, 117, 117);
 }
 
 .btn-primary {
@@ -22,6 +29,12 @@
     color: white;
     border-radius: 5px;
     border-style: none;
+}
+
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 
 nav {
@@ -52,4 +65,37 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+
+.banner-container {
+    max-width: 585px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-profile-picture {
+    width: 584px;
+    height: 676px;
 }
