@@ -8,6 +8,10 @@
 .primary-text {
     color: rgb(253, 110, 10);
 }
+.secondary-bg{
+    background: rgb(255, 248, 243);
+
+}
 
 .dark-1 {
     color: rgb(24, 24, 24);
@@ -29,6 +33,12 @@
     color: white;
     border-radius: 5px;
     border-style: none;
+}
+
+.section-title{
+    font-size: 35px ;
+    font-weight: 700px;
+    color: rgb(24, 24, 24);
 }
 
 .header{
@@ -98,4 +108,38 @@ nav ul li a {
 .banner-profile-picture {
     width: 584px;
     height: 676px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 230px;
+}
+.about{
+    border-radius: 10px;
+    padding: 131px 157px;
+    text-align: center;
+    margin-top: 130px; 
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.about-item-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    
+}
+.about-item-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
 }
